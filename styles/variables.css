@@ -4,13 +4,17 @@
     --font-accent: 'PressStart2P';
     --wght-text: 400;
     --wght-title: 700;
+    --wdth-text: 116%;
+    --wdth-title: 100%;
     --bg-color: #fff;
     --color-text: #000;
-    --p-block_header: clamp(120px, 8.8vw, 128px);
+    --invert-text: #fff;
+    --padding-title: clamp(120px, 8.8vw, 128px);
     --border: 2px solid #000;
     --focus-color: #000;
-    /* Цвет обводки и тени заменен самовольно на #240763, с #fff на моих картинках подписи нечитабельны!*/
-    --contour-text: #240763;
+    /* Цвет обводки и тени был самовольно на #240763, с #fff на моих картинках подписи нечитабельны!
+    Вернула #fff согласно замечаниям*/
+    --contour-text: #fff;
 
     /*Градиент*/
     --gradient_line-left: repeating-linear-gradient(to right, #d3d3d3 0 2px, transparent 2px 4px);
