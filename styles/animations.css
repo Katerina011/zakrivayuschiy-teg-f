@@ -9,3 +9,35 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+@keyframes core-anime {
+    100%{
+        fill: var(--animation-fill-color, #f00)
+    }
+}
+
+@keyframes body-anime {
+    100%{
+        fill: var(--animation-fill-color, #f00)
+    }
+}
+
+@keyframes contour-anime {
+    100%{
+        fill: var(--animation-fill-color, #f00)
+    }
+}
+
+@keyframes puls {
+   
+    100% {
+         transform: scale(1.25);
+        transform-origin: center;
+    }
+}
+
+@keyframes sparks-anime {
+    100% {
+        fill: var(--animation-fill-color, #f00);
+        opacity: 1;
+    }
+}
