@@ -217,8 +217,10 @@
 }
 
 .content__floppy {
+  filter: brightness(0) invert(1);
   inline-size: 21px;
   aspect-ratio: 1/1;
+  mix-blend-mode: difference;
 }
 
 .button:focus, .card__icon-button:focus {
@@ -243,10 +245,6 @@
 
 .button:hover::before {
   transform: scaleX(1);
-}
-
-.button:hover .content__floppy {
-  filter: brightness(0) invert(1);
 }
 
 .card__icon-button:focus-visible {
